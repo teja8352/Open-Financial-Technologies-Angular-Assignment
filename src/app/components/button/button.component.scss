@@ -1,0 +1,27 @@
+.open-button {
+  padding: 0 36px;
+  //   min-width: 110px;
+  height: 36px;
+  font-size: 12px;
+}
+
+.open-button-primary {
+  background: transparent linear-gradient(90deg, #9f62c9 0%, #663399 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 0px 20px #00000033;
+  color: #ffffff;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  transition: background 400ms;
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.open-button-primary-outline {
+  border: 2px solid #663399;
+  background: transparent !important;
+  color: #663399 !important;
+  box-shadow: none !important;
+}

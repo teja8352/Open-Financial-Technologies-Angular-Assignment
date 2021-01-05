@@ -15,7 +15,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "open",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -31,7 +31,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles/fonts.scss",
+              "src/styles/utils.scss",
+              "src/styles/styles.scss"
             ],
             "scripts": []
           },
@@ -127,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "Open-Financial-Technologies-Angular-Assignment"
+  "defaultProject": "Open-Financial-Technologies-Angular-Assignment",
+  "cli": {
+    "analytics": "de6c52cb-c467-4c27-9312-ab461483a981"
+  }
 }
