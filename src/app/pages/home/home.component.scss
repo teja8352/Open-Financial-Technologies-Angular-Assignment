@@ -118,6 +118,9 @@
 }
 
 @media (max-width: 576px) {
+  .ml-sm-0 {
+    margin-left: 0 !important;
+  }
   .navbar-nav {
     margin-left: 0 !important;
   }
